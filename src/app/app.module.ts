@@ -3,6 +3,7 @@ import { BrowserModule }            from '@angular/platform-browser';
 
 import { AppComponent }             from './app.component';
 import { RoshanInfoComponent }      from './roshan-info.component';
+import { LeaderboardComponent }     from './leaderboard/leaderboard.component';
 
 import { AppRoutingModule }         from './app-routing.module';
 
@@ -13,7 +14,8 @@ import { AppRoutingModule }         from './app-routing.module';
   ],
   declarations: [
     AppComponent,
-    RoshanInfoComponent
+    RoshanInfoComponent,
+    LeaderboardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
