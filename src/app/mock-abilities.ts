@@ -1,6 +1,6 @@
 import { Ability } from './ability';
 
-export const Abilities: Hero[] = [
+export const Abilities: Ability[] = [
     {
         name: 'Spell Block',
         description: 'Roshan will block one targeted spell every 15 seconds.'
