@@ -1,7 +1,7 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { RoshanInfoComponent }  from './roshan-info.component';
+import { RoshanInfoComponent }  from './roshan-info/roshan-info.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 
 const routes: Routes = [
