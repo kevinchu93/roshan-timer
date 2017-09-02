@@ -1,3 +1,15 @@
+#header {
+    background-color: orange;
+    overflow: hidden;
+    width: 600px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+}
+.box {
+    float: left;
+
+}
 nav {
     padding: 5px 10px;
     margin-top: 10px;
