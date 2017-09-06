@@ -6,7 +6,7 @@ import { RoshanInfoComponent }      from './roshan-info/roshan-info.component';
 import { LeaderboardComponent }     from './leaderboard/leaderboard.component';
 
 import { AppRoutingModule }         from './app-routing.module';
-import { AbilitiesComponent } from './abilities/abilities.component';
+import { AbilitiesComponent }       from './abilities/abilities.component';
 
 @NgModule({
   imports: [
