@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Ability } from '../ability';
-import { Abilities } from '../mock-abilities';
+import { ABILITIES } from '../mock-abilities';
 
 @Component({
   selector: 'app-abilities',
@@ -15,6 +15,6 @@ export class AbilitiesComponent implements OnInit {
   ngOnInit() {
   }
 
-  ABILITIES = Abilities;
+  Abilities = ABILITIES;
 
 }
