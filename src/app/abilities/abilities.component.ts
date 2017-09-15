@@ -15,6 +15,12 @@ export class AbilitiesComponent implements OnInit {
   ngOnInit() {
   }
 
-  Abilities = ABILITIES;
+    abilities = ABILITIES;
+
+    selectedAbility: Ability;
+
+    onSelect(ability: Ability): void {
+        this.selectedAbility = ability;
+    }
 
 }

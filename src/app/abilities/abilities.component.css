@@ -1,31 +1,49 @@
-.badge {
+#left {
     display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}
+
+#right {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#name {
+    margin-left: 40px;
+}
+
+p {
+    background-color: #d2eafd;
+    border-radius: 4px;
+    padding: 0.8em 0.7em 0.8em 0.7em;
+    line-height: 1em;
+    position: relative;
+    text-align: left;
+}
+.abilities {
+    list-style-type: none;
+}
+    
+.abilities li {
     background-color: #d2eafd;
     border-radius: 4px;
     padding: 0.8em 0.7em 0.8em 0.7em;
     line-height: 1em;
     position: relative;
     text-align: center;
-    overflow: hidden;
+    display: inline-block;
+    float: left;
+    clear: left;
 }
 
-.badge:after {
-    content: "";
-    background: #f1f1f1;
-    display: block;
-    position: absolute;
-    padding-top: 8.6em;
-    padding-left: 300%;
-    margin-left: -0.7em !important;
-    margin-top: -4em;
-    opacity: 0;
-    -webkit-transition: all 0.6s;
-    transition: all 0.6s
+.abilities li:hover {
+    background-color: #a6d4fa;
 }
 
-.badge:active:after {
-    padding: 0;
-    margin: 0;
-    opacity: 1;
-    transition: 0s
+.abilities li.selected {
+    background-color: #79bff8;
 }
+
+

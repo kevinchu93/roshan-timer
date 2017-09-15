@@ -1,6 +1,14 @@
+<div id="left">
+    <h2 id="name">Name</h2>
 <ul class="abilities">
-    <li *ngFor="let ability of Abilities">
-        <span class="badge">{{ability.name}}</span>
-        <p>{{ability.description}}</p>
+    <li *ngFor="let ability of abilities"
+        [class.selected]="ability === selectedAbility"
+        (click)="onSelect(ability)">
+        <span>{{ability.name}}</span>
     </li>
 </ul>
+</div>
+<div id="right">
+    <h2>Description</h2>
+<p *ngIf="selectedAbility">{{selectedAbility.description}}</p>
+</div>
